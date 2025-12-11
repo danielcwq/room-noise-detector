@@ -1,0 +1,15 @@
+[project]
+name = "noise-detector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mlx-whisper>=0.4.3",
+    "numpy>=2.3.5",
+    "python-fasthtml>=0.12.36",
+    "silero-vad>=6.2.0",
+    "sounddevice>=0.5.3",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+]
